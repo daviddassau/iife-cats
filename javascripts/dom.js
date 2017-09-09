@@ -9,10 +9,10 @@ var CatStore = ((oldCatStore) => {
 				}
 			});
 		});
-		CatStore.domString(someArray);
+		CatStore.domString(cats);
 	};
 
-	oldCatStore.domString = (inputsArray) => {
+	oldCatStore.domString = (inputArray) => {
 		// write some strings
 		let catz = '';
         for(let i=0; i<inputArray.length; i++){
